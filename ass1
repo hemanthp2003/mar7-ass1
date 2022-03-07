@@ -1,0 +1,15 @@
+
+
+n=int(input())
+
+k=[]
+
+for i in range(n):
+
+    x=int(input())
+
+    k.append(x)
+
+res=[sorted(k).index(x)+1 for x in k]    
+
+print(res)
